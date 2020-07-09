@@ -71,3 +71,20 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 419px) {
+  .row{
+     width: 100%;
+     font-size: 14px;
+     margin-top: 10%;
+  }
+  .row>.left{
+    float: none;
+    width: 100%;
+
+  }
+  .row>.right{
+    float: none;
+    width: 100%;
+  }
+}
